@@ -98,9 +98,9 @@ When prompted, type Y or Y to all and press Enter to confirm the change.
 **Command**:
 
 
-
+Please pay attention to the ' around the password and SSID'
 ```
-.\usb-build.ps1 -DiskId <disk number> -SSID yourssidhere -SSIDPassword yourpasswoord CreatePartition True -IgnoreLock False -IgnoreBootDrive False
+.\usb-build.ps1 -DiskId <disk number> -SSID 'yourssidhere' -SSIDPassword 'yourpasswoord'
 ```
 
 Additional switches:
