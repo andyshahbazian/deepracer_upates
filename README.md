@@ -3,7 +3,6 @@ This is a step by step walk through to update DR to the latest image needed to u
 
 Follow the steps preferrably on a PC (Windows) machine - please follow carefully - hereby we indemnify ourselves from any damage you might cause to your DR or other properties using the script. 
 
-
 ### Windows PowerShell version
 Follow the instructions here to use a Windows computer to prepare the update media for your AWS DeepRacer device.
 
