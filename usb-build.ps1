@@ -54,7 +54,7 @@ function Show-Exit {
     Write-Host ""
     Write-Host "Exiting, press any key to continue..."
     Write-Host ""
-    $null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+    $null = $Host.UI.RawUI.Read-Host('NoEcho,IncludeKeyDown');
     exit $code
 }
 Function New-File-Unzip {
