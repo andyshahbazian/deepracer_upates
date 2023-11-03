@@ -120,7 +120,7 @@ Ignore Boot Drive creation (default value is False)            | `-IgnoreBootDri
 
 
 ## tweaks.sh
-
+make sure your script has execution permission - by default it wont run on your Deepracer  you need to run `sudo  chmod +x tweaks.sh`
 A script to change a couple of things on the car that I've found useful at events
 
 - Add `deepracer` user to `sudoers`
